@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+         integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" 
+         crossorigin="anonymous" />
+      <title>Document</title>
+   </head>
+   <body>
+      <header>
+      </header>
+      <form action="#">
+         <input type="text" id="input" placeholder="Lisää uusi tehtävä...">
+         <button onclick=newTodo()>
+         <i class="fas fa-plus-circle"></i>
+         </button> 
+      </form>
+      <div class="buttons">
+         <button class="localbutton" onclick=saveTodo()>Tallenna lista</button>
+         <button class="localbutton" onclick=getTodo()>Palauta edellinen lista</button>
+         <button class="localbutton"  onclick=removeAll()>Tyhjennä lista</button>
+      </div>
+      <div class="container">
+         <ul id="list"></ul>
+      </div>
+      <script src="todo.js"></script>
+   </body>
+</html>

@@ -1,0 +1,99 @@
+
+body{
+    background: linear-gradient(200deg,  #05386B, #23a6d5, #23d5ab);
+    color: white;
+    font-family: 'RocknRoll One', sans-serif;
+    min-height: 100vh;
+}
+    
+header {
+    min-height: 150px;
+}
+
+
+header,
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+form input, form button{
+    padding: 10px;
+    font-size: 30px;
+    border: 1px solid black;
+    background: white;
+}
+
+.localbutton {
+    min-width: 150px;
+    min-height: 40px;;
+    color:white;
+    background: #00203fff;
+}
+
+
+button {
+    cursor: pointer;
+}
+
+
+.buttons {
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#list {
+    min-width: 40%;
+    list-style-type: none;
+
+}
+.todo {
+    margin: 10px;
+    background: white;
+    color: black;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.todo li {
+    flex: 1;
+}
+
+.x-btn, .complete-btn {
+    color: white;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.x-btn {
+    background-color: red;
+}
+
+.complete-btn {
+    background-color: green;
+}
+
+.todo-item {
+    padding: 0px 10px;
+}
+
+.fa-times,
+ .fa-check {
+    pointer-events:none
+}
